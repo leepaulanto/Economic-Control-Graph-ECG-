@@ -26,8 +26,8 @@ from .ai_reasoner import AIRiskReasoner
 from .benchmark import ECGBenchmarkEngine
 
 # --- NEW: Elliptic Dataset Imports ---
-from .elliptic_models import EllipticModelManager
-from .elliptic_graph import EllipticTopologyEngine
+from elliptic_models import EllipticModelManager
+from elliptic_graph import EllipticTopologyEngine
 
 app = FastAPI(
     title="Economic Control Graph (ECG) Risk Engine",
